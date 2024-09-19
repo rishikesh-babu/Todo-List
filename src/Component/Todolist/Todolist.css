@@ -1,0 +1,19 @@
+.todolist {
+    margin-block: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-width: 16em;
+}
+.todolist p { 
+    margin: auto;
+    flex-grow: 1;
+    border-radius: 5px;
+    text-align: left;
+} 
+
+.element-done {
+    text-decoration: line-through;
+    background-color: #0fff06;
+}

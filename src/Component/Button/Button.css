@@ -1,0 +1,16 @@
+.button {
+    /* height: fit-content; */
+    padding-block: 1px;
+    padding-inline: 8px;
+    font-size: 35px;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    background-color: #3cff00;
+}
+
+.button:hover {
+    box-shadow: 0 0 14px 8px white;
+}
+.button:active {
+    transform: scale(.96);
+}
